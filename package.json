@@ -165,7 +165,8 @@
     "prettier": "^3.8.3"
   },
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "apitest": "npx cypress run --spec 'cypress/e2e/03apitests.cy.js'"
   },
   "keywords": [],
   "author": "",

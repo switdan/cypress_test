@@ -43,6 +43,9 @@ describe("Web form verification", () => {
   });
 
   it("should log out", () => {
-    //  cy.logoutFromApp()
+     cy.logoutFromApp(
+      parametersAccountManager.logOutButton,
+      URLs.loginURL
+     );
   });
 });
